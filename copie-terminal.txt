@@ -1,26 +1,17 @@
-N/A: version "N/A -> N/A" is not yet installed.
-
-You need to run "nvm install N/A" to install it before using it.
 jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux$ ls
 jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux$ touch index.html
 jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux$ echo "# sharezza-social" >> README.md
 jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux$ git init
 Dépôt Git vide initialisé dans /home/jonathan/Bureau/02 - GitHub et Git : les fondamentaux/.git/
+
 jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master #%)$ git add README.md
+
 jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master +%)$ git commit -m "first commit"
 [master (commit racine) 9ff9e6a] first commit
  1 file changed, 1 insertion(+)
  create mode 100644 README.md
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master %)$ git remote add origin https://github.com/jona-26/sharezza-social.gitjonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master %)$ git push -u origin master
-Username for 'https://github.com': jona-26
-Password for 'https://jona-26@github.com': 
-remote: Invalid username or password.
-fatal: Authentication failed for 'https://github.com/jona-26/sharezza-social.git/'
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master %)$ git push -u origin master
-Username for 'https://github.com': djilo-26
-Password for 'https://djilo-26@github.com': 
-remote: Invalid username or password.
-fatal: Authentication failed for 'https://github.com/jona-26/sharezza-social.git/'
+
+
 jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master %)$ git push -u origin master
 Username for 'https://github.com': jona-26 
 Password for 'https://jona-26@github.com': 
@@ -29,57 +20,15 @@ Décompte des objets: 3, fait.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/jona-26/sharezza-social.git
  * [new branch]      master -> master
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master %=)$ show
 
-La commande « show » n'a pas été trouvée, mais peut être installée avec :
 
-sudo apt install mailutils-mh
-sudo apt install mmh         
-sudo apt install nmh         
-
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master %=)$ git show
-commit 9ff9e6ae55519bea29e02e226e47851e82c89ecd (HEAD -> master, origin/master)
-Author: jona-26 <gillot.jonathan26@gmail.com>
-Date:   Sun Dec 8 19:03:25 2019 +0100
-
-    first commit
-
-diff --git a/README.md b/README.md
-new file mode 100644
-index 0000000..efb4e50
---- /dev/null
-+++ b/README.md
-@@ -0,0 +1 @@
-+# sharezza-social
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master %=)$ git status
-Sur la branche master
-Votre branche est à jour avec 'origin/master'.
-
-Fichiers non suivis:
-  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
-
-	index.html
-
-aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux er %=)$ git push origin master 
-Username for 'https://github.com': jona-26
-Password for 'https://jona-26@github.com': 
-Everything up-to-date
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master %=)$ git commit 
-Sur la branche master
-Votre branche est à jour avec 'origin/master'.
-
-Fichiers non suivis:
-	index.html
-
-aucune modification ajoutée à la validation mais des fichiers non suivis sont présents
 jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master %=)$ git add index.html 
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master +=)$ git commit " first commit"
-error: pathspec ' first commit' did not match any file(s) known to git.
+
 jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master +=)$ git commit -m " second push"
 [master 9554aac]  second push
  1 file changed, 11 insertions(+)
  create mode 100644 index.html
+
 jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master>)$ git push origin master 
 Username for 'https://github.com': jona-26
 Password for 'https://jona-26@github.com': 
@@ -88,9 +37,3 @@ Delta compression using up to 4 threads.
 Compression des objets: 100% (3/3), fait.
 Écriture des objets: 100% (3/3), 411 bytes | 411.00 KiB/s, fait.
 Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/jona-26/sharezza-social.git
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master=)$ ls
-index.html  README.md
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master=)$ touch copie-terminal.txt
-jonathan@jonathan-ThinkPad-T440p:~/Bureau/02 - GitHub et Git : les fondamentaux (master %=)$ 
-
